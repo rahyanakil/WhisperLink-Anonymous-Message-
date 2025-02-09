@@ -2,25 +2,6 @@
 
 ## 🚀 About Me
 I'm a passionate **MERN Stack Developer** from **Bangladesh** 🇧🇩. I love building **scalable web applications**, exploring new technologies, and contributing to open-source projects.
-mkdir WhisperLink; cd WhisperLink;
-mkdir client, server;
-cd client; mkdir public, src; cd src;
-mkdir components, pages, layouts, context, hooks, services;
-New-Item App.jsx, index.jsx, tailwind.css -ItemType File;
-cd components; New-Item Navbar.jsx, Footer.jsx, Button.jsx, Modal.jsx -ItemType File; cd ..;
-cd pages; New-Item Home.jsx, About.jsx, Dashboard.jsx -ItemType File; cd ..;
-cd layouts; New-Item MainLayout.jsx -ItemType File; cd ..;
-cd context; New-Item AuthContext.js -ItemType File; cd ..;
-cd hooks; New-Item useAuth.js -ItemType File; cd ..;
-cd services; New-Item api.js -ItemType File; cd ..;
-cd ../../server;
-mkdir config, models, routes, controllers;
-New-Item server.js, .env -ItemType File;
-cd config; New-Item db.js -ItemType File; cd ..;
-cd models; New-Item User.js, Link.js -ItemType File; cd ..;
-cd routes; New-Item authRoutes.js, linkRoutes.js -ItemType File; cd ..;
-cd controllers; New-Item authController.js, linkController.js -ItemType File; cd ..;
-Write-Host "✅ Project structure created successfully!" -ForegroundColor Green;
 
 - 🌱 Currently learning **Next.js, REST APIs, and AI-based projects**
 - 💻 Working as a **Frontend Developer at Prime Tech Solution Limited**
@@ -32,39 +13,15 @@ Write-Host "✅ Project structure created successfully!" -ForegroundColor Green;
 
 ## 🛠️ Tech Stack
 
-# WhisperLink - MERN Stack Project
+### **Frontend**
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-WhisperLink is a full-stack application built using the **MERN stack** (MongoDB, Express.js, React, Node.js). The application allows users to create and share secure links anonymously. It leverages TailwindCSS for styling and React Router for seamless navigation.
-
-## 🚀 Features
-- **User Authentication**: Secure login and registration system.
-- **Link Sharing**: Share and manage your anonymous links.
-- **Responsive Design**: Fully responsive UI optimized for desktop, tablet, and mobile devices.
-- **TailwindCSS**: Styled using utility-first CSS framework for a modern and clean look.
-- **Real-time Updates**: Dynamic link management and status.
-
-## 🛠 Technologies Used
-- **Frontend**:
-  - React.js (with Vite)
-  - TailwindCSS
-  - React Router
-  - Axios (for API calls)
-  
-- **Backend**:
-  - Node.js
-  - Express.js
-  - MongoDB
-  - JWT (for authentication)
-  - Nodemon (for auto-reloading server during development)
-
-## ⚙️ Project Setup
-
-### 1. Clone the repository
-Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/yourusername/WhisperLink.git
-cd WhisperLink
+### **Backend**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### **Other Tools**
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
